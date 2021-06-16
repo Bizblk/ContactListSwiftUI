@@ -11,6 +11,11 @@
 		1485D93926792E1C009CFF69 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D93826792E1C009CFF69 /* ContentView.swift */; };
 		1485D93B26792E1E009CFF69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1485D93A26792E1E009CFF69 /* Assets.xcassets */; };
 		1485D93E26792E1E009CFF69 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1485D93D26792E1E009CFF69 /* Preview Assets.xcassets */; };
+		1485D94626792F2F009CFF69 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D94526792F2F009CFF69 /* Person.swift */; };
+		1485D94A26792F7A009CFF69 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D94926792F7A009CFF69 /* DataManager.swift */; };
+		1485D94C26793209009CFF69 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D94B26793209009CFF69 /* Contacts.swift */; };
+		1485D94E267A60D6009CFF69 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D94D267A60D6009CFF69 /* Numbers.swift */; };
+		1485D950267A617E009CFF69 /* DetailInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1485D94F267A617E009CFF69 /* DetailInfo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		1485D93A26792E1E009CFF69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1485D93D26792E1E009CFF69 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1485D93F26792E1E009CFF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1485D94526792F2F009CFF69 /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		1485D94926792F7A009CFF69 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		1485D94B26793209009CFF69 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		1485D94D267A60D6009CFF69 /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		1485D94F267A617E009CFF69 /* DetailInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				1485D93626792E1C009CFF69 /* ContactListSwiftUIApp.swift */,
 				1485D93826792E1C009CFF69 /* ContentView.swift */,
+				1485D94F267A617E009CFF69 /* DetailInfo.swift */,
+				1485D94B26793209009CFF69 /* Contacts.swift */,
+				1485D94D267A60D6009CFF69 /* Numbers.swift */,
+				1485D94826792F3E009CFF69 /* Managers */,
+				1485D94726792F33009CFF69 /* Models */,
 				1485D93A26792E1E009CFF69 /* Assets.xcassets */,
 				1485D93F26792E1E009CFF69 /* Info.plist */,
 				1485D93C26792E1E009CFF69 /* Preview Content */,
@@ -67,6 +82,22 @@
 				1485D93D26792E1E009CFF69 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1485D94726792F33009CFF69 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1485D94526792F2F009CFF69 /* Person.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		1485D94826792F3E009CFF69 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1485D94926792F7A009CFF69 /* DataManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1485D950267A617E009CFF69 /* DetailInfo.swift in Sources */,
+				1485D94626792F2F009CFF69 /* Person.swift in Sources */,
+				1485D94A26792F7A009CFF69 /* DataManager.swift in Sources */,
+				1485D94E267A60D6009CFF69 /* Numbers.swift in Sources */,
 				1485D93926792E1C009CFF69 /* ContentView.swift in Sources */,
 				1485D93726792E1C009CFF69 /* ContactListSwiftUIApp.swift in Sources */,
+				1485D94C26793209009CFF69 /* Contacts.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
