@@ -12,7 +12,8 @@ struct Numbers: View {
     var body: some View {
         List {
             ForEach(contacts) { contact in
-                Section(header: Text(contact.fullName)) {
+                Section(header: Text(contact.fullName)
+                            .textCase(.none)) {
                     HStack {
                         Image(systemName: "phone")
                             .foregroundColor(.blue)
